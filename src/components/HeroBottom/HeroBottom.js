@@ -12,7 +12,7 @@ import {MdPriceChange} from "react-icons/md"
 
 const HeroBottom = () => {
     return (
-        <section>
+        <>
             <div className="pt---60 contianer">
                 <div className="benDiv">
                     {/* <div className="text-center mb-5">
@@ -58,7 +58,7 @@ const HeroBottom = () => {
                     {/* </Paper> */}
                 </div>
             </div>
-        </section>
+        </>
     )
 }
 
