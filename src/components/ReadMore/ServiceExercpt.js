@@ -66,7 +66,9 @@ const ServiceExercpt = ({ServiceId, Titleheading, Cardcontent }) => {
   
     <h5>{Titleheading}</h5>
     <p>{Cardcontent}</p>
-    <button onClick={handleClickFunc} >Read More...</button>
+    <div className="text-center">
+
+    <button onClick={handleClickFunc} >Read More...</button></div>
 </div>
 
 

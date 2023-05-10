@@ -70,14 +70,8 @@ import ServiceExercpt from '../ReadMore/ServiceExercpt';
 const MyCards = () => {
     // const classes = useStyles()
     const services=ServiceData.map((service)=>(
-        <div className="ben-div" >
-                            <div className="one-row row-appear" style={{
-                                width: "100%",
-                                display: "row",
-                                flexWrap: "wrap",
-                                justifyContent: "space-around",
-                                }}>
-    <div className="col-sm-2">
+       
+    <div className="one-col col-4">
 
     
     <ServiceExercpt ServiceId={service.id}
@@ -85,7 +79,7 @@ const MyCards = () => {
         Cardcontent={service.Cardcontent}
         heading={service.heading} content={service.content}></ServiceExercpt>
         </div>
-        </div></div>))
+       ))
     
     return (
         <section className="benefitSection">
@@ -110,13 +104,19 @@ const MyCards = () => {
                         sx={{ borderRadius: "20px", width: '97%', margin: '15px', padding: '3px' }}
                     >
                         
-                            
+                        <div className="ben-div" >
+                            <div className="one-row row-appear" style={{
+                                width: "100%",
+                                display: "flex",
+                                flexWrap: "wrap",
+                                justifyContent: "space-around",
+                                }}>
                            
 
                              
-                            <div>{services}</div>
+                            {services}
                            
-                        
+                            </div></div>
                             
                     </Paper>
                 </div>
