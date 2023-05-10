@@ -4,6 +4,7 @@ import { BiInjection } from 'react-icons/bi';
 import { FaHospitalAlt, FaHospitalSymbol, FaUserNurse, FaXRay } from 'react-icons/fa';
 import { MdBloodtype } from 'react-icons/md';
 import {useNavigate} from 'react-router-dom'
+import '../Services/services.css';
 
 
 const navigation = [
@@ -49,7 +50,7 @@ const navigation = [
     
       ];
 
-const ServiceExercpt = ({ServiceId, Titleheading, Cardcontent }) => {
+const ServiceExercpt = ({ServiceId, Titleheading, Cardcontent,cardIcon }) => {
     const handleSubmit = async (e) => { navigate("/allservices");}
     const navigate=useNavigate();
     const handleClickFunc =()=>{
@@ -64,8 +65,12 @@ const ServiceExercpt = ({ServiceId, Titleheading, Cardcontent }) => {
 
     </div>
   
-    <h5>{Titleheading}</h5>
+    <div>{cardIcon}</div>
+    <h5 className="colorText">{Titleheading}</h5>
+    <div className="what">
+    
     <p>{Cardcontent}</p>
+    </div>
     <div className="text-center">
 
     <button onClick={handleClickFunc} >Read More...</button></div>

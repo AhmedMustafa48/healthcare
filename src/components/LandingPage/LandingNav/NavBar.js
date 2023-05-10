@@ -33,7 +33,7 @@ const LandingNavbar = () => {
             
 
             
-              <li className="nav-item">
+              <li className="nav-item ">
                 <a className="nav-link" href="#home">
                   Home
                 </a>

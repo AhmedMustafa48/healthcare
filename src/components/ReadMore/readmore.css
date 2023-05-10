@@ -11,7 +11,17 @@
     color: grey;
 }
 .rowImage> .thisImg{
-    width: 25rem;
+    height: 15rem;
+    
     border-radius: 20px;
     margin-top: 3rem;
 }
+@media screen and (max-width:800px){
+    .displayChange{
+      /* background-color: black; */
+      display: block;
+      
+    }
+    
+
+  }

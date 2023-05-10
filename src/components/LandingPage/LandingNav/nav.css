@@ -50,6 +50,14 @@
 
 
    @media screen and (max-width:995px){
+    .bunch{
+      display:flex;
+      flex-direction: column;
+
+    }
+    .nav-item{
+      line-height:1px;
+    }
     .navbar-toggler{
       margin-left: auto;
       
@@ -62,6 +70,7 @@
          width: 80%;
          margin-top: -370px;
      }
+
      .respLogo{
       display: none;
      }

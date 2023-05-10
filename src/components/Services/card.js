@@ -69,8 +69,10 @@ import ServiceExercpt from '../ReadMore/ServiceExercpt';
 
 const MyCards = () => {
     // const classes = useStyles()
+    const navigate=useNavigate();
+    const handleSubmit =async(e)=>{navigate('/allservices')}  
     const services=ServiceData.map((service)=>(
-       
+    
     <div className="one-col col-4">
 
     
@@ -101,7 +103,11 @@ const MyCards = () => {
                     <Paper
                         className="main-cardss"
                         elevation={10}
-                        sx={{ borderRadius: "20px", width: '97%', margin: '15px', padding: '3px' }}
+                        sx={{ borderRadius: "20px", width: '97%', 
+                        margin: '15px', padding: '3px', maxHeight: '80vh',
+                        overflowY:'auto',
+                    
+                    }}
                     >
                         
                         <div className="ben-div" >
@@ -116,7 +122,11 @@ const MyCards = () => {
                              
                             {services}
                            
-                            </div></div>
+                            </div>
+                            {/* <div className="text-center">
+                                <button className='service-btn-clr' onClick={handleSubmit}>All Services</button>
+                            </div> */}
+                            </div>
                             
                     </Paper>
                 </div>

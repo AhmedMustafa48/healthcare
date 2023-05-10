@@ -1,123 +1,189 @@
+
 [
-        {    
-    "id":1,
-    "headings": "Blood Sampling Services",
-    "content":  "No one enjoys a blood test, but a visit to the phlebotomist is often necessary if you want to find out what’s wrong. However, this could be set to change. A device from Seattle start-up Tasso helps patients painlessly collect their blood at home. Natalie Healey talks to CEO Ben Casavant about why at-home blood collection might be particularly vital in the age of social distancing."
-    ,"Titleheading": "BLOOD SAMPLING SERVICES",
-    "Cardcontent": "Home Nursing Care is for patients and Elders to take care of at home, even after Covid-19, Surgical Patients, Cancer or any other disease or Corona vaccination"
+    
+        {  
+            "id":1,
+            "headings": "Blood Sampling Services",
+            "content":  "No one enjoys a blood test, but a visit to the phlebotomist is often necessary if you want to find out what’s wrong. However, this could be set to change. A device from Seattle start-up Tasso helps patients painlessly collect their blood at home. Natalie Healey talks to CEO Ben Casavant about why at-home blood collection might be particularly vital in the age of social distancing."
+            ,"Titleheading": "Blood Sampling Services",
+            "Cardcontent": "Home Nursing Care is for patients and Elders to take care of at home, even after Covid-19, Surgical Patients, Cancer or any other disease or Corona vaccination",
+            "link" : "/images/bloodsample.jpeg"
 },
 {
     "id":2,
     "headings": "Nursing Staff at Home",
     "content":  "Home Nursing Care is for patients and Elders to take care of at home, even after Covid-19, Surgical Patients, Cancer or any other disease or Corona vaccination."
-    ,"Titleheading": "BLOOD SAMPLING SERVICES",
-    "Cardcontent": "Home Nursing Care is for patients and Elders to take care of at home, even after Covid-19, Surgical Patients, Cancer or any other disease or Corona vaccination"
-
+    ,"Titleheading": "Nursing Staff at Home",
+    "Cardcontent": "Home Nursing Care is for patients and Elders to take care of at home, even after Covid-19, Surgical Patients,  Cancer or any other...."
+    ,"link" : "/images/nursingstaff.jpeg"
 },
 {
     "id":3,
-    "headings": "physiotherapy at Home",
+    "headings": "Physiotherapy at Home",
     "content":  "Physiotherapists (PTs) work within a wide variety of health settings to improve a broad range of physical problems associated with different ‘systems’ of the body. In particular they treat neuromuscular (brain and nervous system), musculoskeletal (soft tissues, joints and bones), cardiovascular and respiratory systems (heart and lungs and associated physiology).The following are the most common diseases treated by the physiotherapists are: Low Back Pain, Disc Buldge Problems, Scoliosis, Sciatica, Knee Osteoarthritis, Ankle sprains,CP child, Issues related to Gynae & Obs,before and after pregnancy."
+    ,"Titleheading": "Physiotherapy at Home",
+    "Cardcontent": "people are working on the right things at the right time. Easily document requirements,specs, directly or via files..."
+    ,"link" : "/images/antibiotics.png"
 },
 {
     "id":4,
     "headings": "X-rays at home",
     "content":  "Rather than holding up at a trauma center to be analyzed, numerous patients are presently picking to have X-beams taken in their homes. Particularly helpful for the old or patients with critical sicknesses, compact X-beam machines can require just 20 minutes and may try and have the option to send data to a radiologist carefully. Convenient X-beam machines have been accessible for quite a while. By and large, they have been utilized in clinics to perform radiography on patients who are in such basic condition that they can only with significant effort be shipped to the radiology office. These machines have likewise been utilized in the trauma center when a patient is being treated for horrendous wounds or in the working room where patients might be going through different surgeries. At times, it is challenging for patients at home to head out to the emergency clinic, which has prompted an expanded utilization of compact X-beam administrations, as indicated by a new article from Reuters. The choice might be especially useful for older patients, since an outing to the emergency clinic could be dangerous. Then again, there are different patients who wish to be treated in the commonality and solace of their own homes. Having a X-beam taken at home requires a specialist’s solution. To play out the radiographic examinations, a convenient machine should be moved to the patient’s home, alongside a prepared and ensured expert, as indicated by Reuters. This is essential to guarantee a quality test is taken, while safeguarding others who might be in the home from undesirable openness. For this degree of administration, a test might cost about $300 without protection inclusion. “As a rule, in about an hour after we take a X-beam we give these outcomes straightforwardly to the specialist,” Paul Fowler, pioneer behind Specialty Portable X-Ray, Inc. in New York told Reuters. “With the computerized X-beams, we are utilizing most likely less openness than you would at the clinic.” Different organizations utilize advanced transmission to send the X-beam pictures straightforwardly to the radiologist, as indicated by Reuters. This builds the proficiency of the methodology. Regardless of the obvious advantages that convenient X-beams offer, nonetheless, there might be a few disadvantages. A few specialists feel that convenient tests offer a much lower quality than comparable tests acted in a conventional X-beam division, as per Reuters.“In the event that you look at the nature of those sorts of examinations with the nature of a review that was acted in a clinic in a radiology division or in a confidential radiology office, there will be no correlation,” Dr. David Levin, teacher and administrator emeritus of the Department of Radiology at Thomas Jefferson University Hospital in Philadelphia, told Reuters. “In the event that a convenient X-beam is totally important in light of the patient’s clinical condition, then, at that point, it’s reasonable.” Further developing comfort and taking out excursions to clinical offices is a speeding up pattern in the clinical gadget space. As of late, a home lab framework was presented that consolidates wearable tech and nanoscale biomarker testing."
+    ,"Titleheading": "X-rays at home",
+    "Cardcontent": "Instead of waiting at an emergency room to be examined, many patients are now opting to have X-rays taken in their homes."
+    ,"link" : "/images/xrays.png"
 },
 {
     "id":5,
     "headings": "Antibiotics Injections",
     "content":  "Antibiotics are a group of medicines that are used to treat infections caused by some germs (bacteria and certain parasites). They do not work against infections that are caused by viruses – for example, the common cold or flu. Antibiotics are normally only prescribed for more serious bacterial infections, as many infections get better on their own. Correct use of antibiotics is absolutely essential to help reduce antibiotic resistance. Germs become resistant to antibiotics over time, which then makes them less effective.The World Health Organization (WHO) says “the world urgently needs to change the way it prescribes and uses antibiotics” as antibiotic resistance is a major global threat."
+    ,"Titleheading": "Antibiotics Injections",
+    "Cardcontent": "Antibiotics are a group of medicines that are used to treat infections caused by some germs (bacteria and certain parasites)."
+    ,"link" : "/images/antibiotics.png"
 },
 {
     "id":6,
     "headings": "Drips/IV Fluid",
     "content":  "An IV fluid drip involves a small tube called a catheter and a saline-based electrolyte solution that contains your selected vitamins and nutrients. An IV drip delivers these essential nutrients and fluids directly into your bloodstream, bypassing your digestive tract. There’s no wait time, and the nutrition is instantly available to remedy your body’s health and wellness needs. At Bounce Hydration, the process looks like this: Our nurses place a small, thin plastic tube called a catheter directly into your vein. In order to place the catheter, we use a numbing spray to help minimize any discomfort Once our nurse accesses your vein, we remove the needle. The catheter remains inside you deliver your IV infusion. The catheter is attached to a bag, which contains your selected drip! In total, an IV drip takes around 30 to 45 minutes for a complete therapy session. This includes completing a few forms prior to your infusion as well as a quick health assessment"
+    ,"Titleheading": "Drips/IV Fluid",
+    "Cardcontent": "An IV fluid drip involves a small tube called a catheter and a saline-based electrolyte solution that contains your selected..."
+    ,"link" : "/images/drips.png"
 },
 {
     "id":7,
     "headings": "Cannula/Brannula",
     "content":  "A cannula is a thin tube that doctors insert into a person’s body cavity, such as their nose, or into a vein. Doctors use them to drain fluid, administer medication, or provide oxygen. A person can use intravenous (IV) and nasal cannulas both in the hospital or at home."
+    ,"Titleheading": "Cannula/Brannula",
+    "Cardcontent": "A cannula is a thin tube that doctors insert into a person’s body cavity, such as their nose, or into a vein. Doctors use them to drain fluid, administer.."
+    ,"link" : "/images/cannula.png"
 },
 {
     "id":8,
     "headings": "Dressing at Home",
     "content":  "Place the gauze pads or packing tape in your wound. Carefully fill in the wound and any spaces under the skin. Cover the wet gauze or packing tape with a large dry dressing pad. Use tape or rolled gauze to hold this dressing in place."
+    ,"Titleheading": "Dressing at Home",
+    "Cardcontent": "Place the gauze pads or packing tape in your wound. Carefully fill in the wound and any spaces under the skin."
+    ,"link" : "/images/dressing.png"
 },
 {
     "id":9,
     "headings": "N/G Tube",
     "content":  "A nasogastric tube (NG tube) is a special tube that carries food and medicine to the stomach through the nose. It can be used for all feedings or for giving a person extra calories. You’ll learn to take good care of the tubing and the skin around the nostrils so that the skin doesn’t get irritated."
+    ,"Titleheading": "N/G Tube",
+    "Cardcontent": "A nasogastric tube (NG tube) is a special tube that carries food and medicine to the stomach through the nose."
+    ,"link" : "/images/ng.png"
 },
 {
     "id":10,
     "headings": "Follys catherization",
     "content":  "A Foley catheter is a thin, sterile tube inserted into the bladder to drain urine. Because it can be left in place in the bladder for a period of time, it is also called an indwelling catheter. It is held in place with a balloon at the end, which is filled with sterile water to prevent the catheter from being removed from the bladder. The urine drains through the catheter tube into a bag, which is emptied when full. The procedure to insert a catheter is called catheterization. A Foley catheter is used with many disorders, procedures, or problems such as these: Retention of urine leading to urinary hesitancy, straining to urinate, decrease in size and force of the urinary stream, interruption of urinary stream, and sensation of incomplete emptying, Obstruction of the urethra by an anatomical condition that makes it difficult for one to urinate: prostate hypertrophy, prostate cancer, or narrowing of the urethra, Urine output monitoring in a critically ill or injured person, Collection of a sterile urine specimen for diagnostic purposes,  Nerve-related bladder dysfunction, such as after spinal trauma (A catheter can be inserted regularly to assist with urination.),  Imaging study of the lower urinary tract, After surgery"
+    ,"Titleheading": "Follys catherization",
+    "Cardcontent": "A Foley catheter is a thin, sterile tube inserted into the bladder to drain urine."
+    ,"link" : "/images/folly.png"
 },
 {
     "id":11,
     "headings": "Stitches Remove",
     "content":  "Healthcare professional use stitches to heal deep cuts and wounds. Many people wonder if it is safe to remove these stitches at home once the wound has healed.Surgeons also use stitches, or sutures, to close an incision after finishing a surgical procedure. Stitches consist of thin threads that join the skin together while the cut heals. In this article, we discuss when it is safe for a person to remove their stitches themselves and how to do it. We also cover what to do afterward and when to see a doctor."
+    ,"Titleheading": "Stitches Remove",
+    "Cardcontent": "Healthcare professional use stitches to heal deep cuts and wounds. Many people wonder if it is..."
+    ,"link" : "/images/stitches.png"
 },
 {
     "id":12,
     "headings": "Oxygen Cylinder/Oxygen Concentrator",
     "content":  "These are primarily used in hospitals where Medical Gas Pipeline (MGPS) has not been laid, however many hospitals use cylinders connected in series to supply oxygen to the wards through a manifold. The Jumbo cylinders are used in critical areas like Operation Theatres, ICUS, HDUS, etc."
+    ,"Titleheading": "Oxygen Cylinder/Oxygen Concentrator",
+    "Cardcontent": "These are primarily used in hospitals where..."
+    ,"link" : "/images/oxygen.png"
 },
 {
     "id":13,
     "headings": "ECG at home",
     "content":  "With our ECG monitoring device, you can record medical grade ECG anytime, anywhere. The world’s only US-FDA cleared 6-lead personal ECG device, it can record your ECG in just about 30 seconds and share it with your cardiologist at Medanta for real time monitoring."
+    ,"Titleheading": "ECG at home",
+    "Cardcontent": "With our ECG monitoring device, you can record medical grade ECG anytime, anywhere.."
+    ,"link" : "/images/ecg.png"
 },
 {
     "id":14,
     "headings": "Ultrasound at Home",
     "content":  "Home ultrasound is the provision of therapeutic ultrasound via the use of a portable or home ultrasound machine. This method of medical ultrasound therapy can be used for various types of pain relief and physical therapy."
+    ,"Titleheading": "Ultrasound at Home",
+    "Cardcontent": "Home ultrasound is the provision of therapeutic ultrasound via the use of a portable..."
+    ,"link" : "/images/ultrasound.png"
 },
 {
     "id":15,
     "headings": "Nutritionist Services",
-    "content":  "The Horizen Healthy Care nutrition, much like the concept of health care, stems from acknowledgment and examination of a person’s entire physical and mental being before deciding on a course of action in the management and treatment of disease or disability. Horizen nutrition is different from the standardized approach. At Horizon Health Care , our approach to nutrition is based on a patient’s entire physical and mental health. This helps our specialists get an insight into the patient’s unique nutritional needs. Our certified nutritionists work with a team of healthcare professionals to provide you with a roadmap to recovery based on your specifications and goals. Food and nutrition are undoubtedly very critical to a patient’s recovery process. A strictly science-based approach to lifestyle changes without laying heavy on counting the number of calories but instead working to detoxify the patient’s lifestyle is what we focus on at Horizon Health Care. Specialized and customized diet and nutrition plans help be a healthier you."
+    "content":  "The Home Nursing Service nutrition, much like the concept of health care, stems from acknowledgment and examination of a person’s entire physical and mental being before deciding on a course of action in the management and treatment of disease or disability. Horizen nutrition is different from the standardized approach. At Horizon Health Care , our approach to nutrition is based on a patient’s entire physical and mental health. This helps our specialists get an insight into the patient’s unique nutritional needs. Our certified nutritionists work with a team of healthcare professionals to provide you with a roadmap to recovery based on your specifications and goals. Food and nutrition are undoubtedly very critical to a patient’s recovery process. A strictly science-based approach to lifestyle changes without laying heavy on counting the number of calories but instead working to detoxify the patient’s lifestyle is what we focus on at Horizon Health Care. Specialized and customized diet and nutrition plans help be a healthier you."
+    ,"Titleheading": "Nutritionist Services",
+    "Cardcontent": "The Home Nursing Service nutrition, much like the concept of health care, stems from..."
+    ,"link" : "/images/nutritionist.png"
 },
 {
     "id":16,
     "headings": "Echocardiography at Home",
     "content":  "Our parental echocardiogram (also called a tele parental echo) empowers you to perform an echocardiogram on your child from home, under the real-time virtual supervision of a trained Stanford Children’s Health sonographer. Our sonographer ensures that the images are of high quality for diagnostics and best results."
+    ,"Titleheading": "Echocardiography at Home",
+    "Cardcontent": "Our parental echocardiogram (also called a tele parental echo) empowers you to perform an echocardiogram on your child from home"
+    ,"link" : "/images/echocardiography.png"
 },
 {
     "id":17,
     "headings": "Provides medical equipment at home",
     "content":  "Medical Equipment Services is an independent service company that specializes in the repair, calibration and preventative maintenance of patient care related electrical equipment. We provide on-site service and support nationwide.  Our field engineers are manufacturer trained and have extensive field experience in servicing and supporting various types of medical equipment. Medical Equipment Services ensures the highest quality of service and is your physical medicine equipment repair and calibration specialist."
+    ,"Titleheading": "Provides medical equipment at home",
+    "Cardcontent": "Medical Equipment Services is an independent service company that specializes in the repair, calibration and preventative maintenance..."
+    ,"link" : "/images/providesmedical.jpeg"
 },
 {
     "id":18,
     "headings": "Annula/Brannula",
     "content":  "A cannula is a thin tube that doctors insert into a person’s body cavity, such as their nose, or into a vein. Doctors use them to drain fluid, administer medication, or provide oxygen."
+    ,"Titleheading": "Annula/Brannula",
+    "Cardcontent": "A cannula is a thin tube that doctors insert into a person’s body cavity, such as their nose, or into a vein. Doctors use them to drain fluid, administer medication, or provide oxygen..."
+    ,"link" : "/images/cannula.png"
 },
 {
     "id":19,
     "headings": "Vaccination at home",
     "content":  "Home Nursing services is a leader in health tracking. We provide our clients with a system to better help them identify which vaccines an employee has received, when they may need boosters and what expiration dates may exist.Baby Vaccination-If you have hepatitis B, your baby should get the first shot of hepatitis vaccine within 12 hours of birth. There’s additional medicine that can help protect your newborn against hepatitis B; it’s called hepatitis B immune globin (HBIG). HBIG gives your baby’s body extra help to fight the virus as soon as your baby is born. After vaccination Sometimes children have mild reactions from vaccines, such as pain at the injection site or a rash. These reactions are normal and will soon go away. Read the Vaccine Information Sheet(s) your baby’s doctor gave you to learn about side effects your baby may experience. Swaddle.Offer breastmilk or formula more often. It is normal for some babies to eat less during the 24 hours after getting vaccines. Pay extra attention to your baby for a few days. If you see something that concerns you, call your baby’s doctor. ,Adult Vaccination-Combination typhoid–hepatitis A vaccines (mainly for use by travelers) have been developed by GSK Biologics (Hepatyrix)221–223 and Sanofi Pasteur MSD (Viatim).223–226 Hepatyrix combines 25 µg of Vi and 1440 units of inactivated hepatitis A virus antigen adsorbed to 0.5 mg of alum adjuvant as a 1 mL liquid suspension in a prefilled syringe. Viatim comes formulated as a dual-chamber syringe in which one 0.5-mL chamber contains 25 µg of Vi polysaccharide and the other 0.5-mL chamber holds 160 antigen units of inactivated hepatitis A virus; a 25-gauge needle is attached to the dual-chamber syringe. As the plunger of the dual-chamber syringe is depressed, the vaccines from the two chambers mix and emerge as a combination.223 Viatim uses the dual-chamber because the manufacturer’s preliminary data suggested that a premixed combination diminished the response to the Vi component compared with antigen administered alone. Each of these combination vaccines stimulates seroconversion to the component vaccine antigens in a manner equivalent to monovalent Vi and hepatitis A vaccines."
+    ,"Titleheading": "Vaccination at home",
+    "Cardcontent": "We provide our clients with a system to better help them identify which vaccines an employee has received, when they may need boosters and what expiration dates may exist."
+    ,"link" : "/images/vaccinations.png"
 },
 {
     "id":20,
     "headings": "Hijama/cupping therapy at home",
     "content":  "There is some evidence to suggest that cupping therapy may be beneficial for certain health conditions. However, research into cupping therapy tends to be of low quality. More studies are necessary to understand how cupping therapy works if it works, and situations where it may help. 1. Benefits-According to this paper, the different types of stimulation cupping can provide may be why it helps a wide range of conditions. However, the review also notes there is not enough strong evidence to back up this effectiveness. Benefits of cupping that the review authors cite may include: pain reduction, muscle relaxation, improved blood circulation, activation of the immune system, release of toxins, removal of wastes and heavy metals, Does cupping therapy work? Many doctors consider cupping therapy a complementary therapy, which means that many do not recognize it as part of Western medicine. However, this does not mean it is not effective. Therapists sometimes use complementary treatments with supporting research in addition to Western medicine. 2. Uses-According to the resources, therapists may use cupping for the following conditions: shingles pain, facial paralysis, cardiovascular disease prevention, musculoskeletal pain, lower back pain, neck pain, fibromyalgia, carpal tunnel syndrome, headache, migraine, cough, cold, asthma, acne, urticaria, soft tissue injury, neurodermatitis.Therapists may also use cupping as a cosmetic technique to improve the appearance of facial skin" 
+    ,"Titleheading": "Hijama/cupping therapy at home",
+    "Cardcontent": "حجامہ سنت بھی علاج بھی” It is narrated that:Cupping(Hijama)is most helpful procedure for Human being to cure..."
+    ,"link" : "/images/hijama.jpeg"
 },
 {
     "id":21,
     "headings": "Massage Therapy at home",
     "content":  "Therapeutic massage has several names such as restorative massage, medical massage, healing massage or corrective massage. This type of massage helps in rehabilitation, pain, and injury management by systematically assessing and treating muscles, tendons, ligaments, and connective tissue in affected areas. A patient assessment exam is essential. While deep tissue massage is a whole-body treatment, therapeutic massage focuses on those parts of the body that require rehabilitation. The therapeutic massage begins with an examination of the muscles, ligaments, tendons, and posture. Once the therapist understands your issues causing the injury or pain, they perform a targeted massage of the area. While deep tissue massage requires firm pressure, the pressure used during a therapeutic massage will vary depending on what is best for you to treat the specific problem. The massage therapist knows very well that the pain in one place can most likely have its cause in another quite different place. Do you suffer from low back pain or chronic back pain? One of the most common pains is low back pain. We hear of this chronic evil more and more, with office jobs and IT careers rising. People spend eight or more hours a day sitting. This most commonly affects the large psoas muscle and lower back. The large psoas muscle is a muscle that sits deep in the abdomen with attachments in the lower lumbar vertebrae. Actions like bringing your knee closer to your chest or flexing your hip strain that muscle. When you sit for long hours, you let this muscle rest in too short a state, pulling on the lower back. Do you experience repeated pain in your body? Pain is your body’s natural reaction to injury or illness. It’s a warning that something is wrong. When your body heals, you usually stop the pain. However, when your pain persists long after its root cause has gone away when you feel pain in one part of your body for 3 months or more, then your pain is chronic. This suffering you endure day in and day out could damage your emotional and physical health."
+    ,"Titleheading": "Massage Therapy at home",
+    "Cardcontent": "Therapeutic massage has several names such as restorative massage, medical massage, healing massage or corrective massage. This type of massage helps in..."
+    ,"link" : "/images/massage.jpeg"
 },
 
 {
     "id":22,
     "headings": "Clostomy bag change at home",
     "content":  "Stoma Bag Change Checklist Ensure you have everything to hand before changing your bag: A clean stoma bag, Scissors and template (if required), Dry wipes or plain kitchen roll (not cotton wool or tissues), Warm water, Disposal bag, Adhesive remover (if required)"
+    ,"Titleheading": "Clostomy bag change at home",
+    "Cardcontent": "Stoma Bag Change Checklist Ensure you have everything to hand before changing your bag: A clean stoma bag Scissors and template (if required) Dry wipes or plain kitchen roll (not cotton wool or tissues) Warm..."
+    ,"link" : "/images/clostomy.png"
 },
 {
     "id":23,
     "headings": "Speech Therapy Services",
     "content":  "At-home speech therapy can be especially helpful for kids who aren’t easily frustrated and who have only mild delays or articulation errors, said Massachusetts-based pediatric speech therapist Alyssa Gusenoff. More serious problems, like speech regressions, should be brought up with a licensed speech therapist."
+    ,"Titleheading": "Speech Therapy Services",
+    "Cardcontent": "At-home speech therapy can be especially helpful for kids who aren’t easily frustrated and who have only mild delays or articulation errors, said Massachusetts-based pediatric speech therapist Alyssa Gusenoff..."
+    ,"link" : "/images/speechtherapy.png"
 }
    ]

@@ -8,6 +8,8 @@ body {
       display: flex;
       flex-direction: column;
       background-image: url("../../Assets/topimg.jpeg");
+      
+      /* background: rgba(255, 122, 89, .5) url('../../Assets/topimg.jpeg') no-repeat center center fixed; */
       height: 100vh;
       align-self: center;
       background-repeat: no-repeat;
@@ -43,7 +45,9 @@ body {
 @media screen and (max-width:995px){
    .hero{
     /* background-image:url("../../Assets/topimg.jpeg") background rgba(0, 0, 0, .5); */
-    background: rgba(255, 122, 89, .5) url('../../Assets/topimg.jpeg') no-repeat center center fixed;
+    background: rgba(74, 8, 208, 0.5) url('../../Assets/topimg.jpeg') no-repeat center center fixed;
+    background-blend-mode: multiply;
+
     background-size: cover;
    }
 
@@ -55,8 +59,13 @@ body {
         margin-top: auto;
         margin-bottom: auto;
         width: 80%;
+        
         /* margin-top: -370px; */
 
     }
+    .text>h1, .text>p{
+        color: rgb(228, 220, 220);
+    }
+    
 
   }

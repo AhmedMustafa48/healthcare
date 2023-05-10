@@ -2,26 +2,29 @@ import React from 'react'
 import './allservices.css';
 import NavBar from "../LandingPage/LandingNav/NavBar"
 import { Paper } from '@mui/material';
-import BloodtypeIcon from '@mui/icons-material/Bloodtype';
+
 import {BsHospital} from "react-icons/bs";
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
-import MedicationLiquidIcon from '@mui/icons-material/MedicationLiquid';
 import AddHomeWorkIcon from '@mui/icons-material/AddHomeWork';
+import MedicationLiquidIcon from '@mui/icons-material/MedicationLiquid';
+
 import {BiInjection, BiPlusMedical} from 'react-icons/bi'
 import MedicalServicesIcon from '@mui/icons-material/MedicalServices';
 import AcUnitIcon from '@mui/icons-material/AcUnit';
+import BloodtypeIcon from '@mui/icons-material/Bloodtype';
 
-import {MdBloodtype} from "react-icons/md"
 import {FaUserNurse, FaFileMedical,FaXRay, FaFillDrip, FaHandHoldingMedical, FaPumpMedical, FaClinicMedical, FaFileMedicalAlt} from "react-icons/fa"
 import {GiBandageRoll} from 'react-icons/gi'
 import {RiTestTubeFill, RiSurgicalMaskFill} from 'react-icons/ri'
 import HealingIcon from '@mui/icons-material/Healing';
 import {HiDocumentReport} from 'react-icons/hi'
-import {TiWaves} from 'react-icons/ti'
-import {SlSpeech} from 'react-icons/sl'
-import {MdSpeakerNotes} from 'react-icons/md'
-import {BsBagPlusFill}  from 'react-icons/bs'
 import {TbChartDonutFilled} from 'react-icons/tb'
+import {TiWaves} from 'react-icons/ti'
+import {MdSpeakerNotes} from 'react-icons/md'
+import {SlSpeech} from 'react-icons/sl'
+import {MdBloodtype} from "react-icons/md"
+import {BsBagPlusFill}  from 'react-icons/bs'
+
 
 
 import { Link, useNavigate } from 'react-router-dom';
@@ -141,7 +144,7 @@ const data=[
     {
         icon:<MdSpeakerNotes/>,
         heading:"SPEECH THERAPY SERVICES",
-        content:"EAt-home speech therapy can be especially helpful for kids who aren’t easily frustrated and who have only mild delays or articulation errors, said Massachusetts-based pediatric speech therapist Alyssa Gusenoff. More serious problems, like speech regressions...",
+        content:"At-home speech therapy can be especially helpful for kids who aren’t easily frustrated and who have only mild delays or articulation errors, said Massachusetts-based pediatric speech therapist Alyssa Gusenoff. More serious problems, like speech regressions...",
     },
 ]
 

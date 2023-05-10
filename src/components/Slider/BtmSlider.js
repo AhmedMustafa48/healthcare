@@ -20,6 +20,7 @@ const BtmSlider = () => {
                                     display: 'flex',
                                     flexDirection: 'column',
                                     alignItems: 'center',
+                                    marginBottom:'10px',
 
                                     // '@media screen and (max-width:800px)':{
                                        
@@ -61,6 +62,7 @@ const BtmSlider = () => {
             purpcol:{
               marginLeft:'auto',
                 marginRight:'auto',
+                marginBottom:'10px',
             },
             rowdisplay:{
                 backgroundColor: '#4c4bbd',
