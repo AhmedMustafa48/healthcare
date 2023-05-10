@@ -1,7 +1,4 @@
 
-/* .logo{
-  width: 20% !important;
-} */
 .bunch{
     display: flex;
     justify-content: space-between;
@@ -11,7 +8,6 @@
 }
 .container{
     padding:10px;
-    /* border: 5px solid pink; */
   }
   body, h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p{
     font-weight: 800;
@@ -26,7 +22,6 @@
     color: #83d0c0;
   }
   .navbar{
-  /* position: fixed; */
       top: 0;
     background-color: rgb(255, 255, 255);
     margin: 0px;

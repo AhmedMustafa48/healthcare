@@ -1,7 +1,7 @@
 import React from 'react'
 // import { Link } from 'react-router-dom';
 import "./nav.css";
-// import perfectlogo from '../../assets/images/whlogo.png';
+import complogo from '../../../Assets/complogo.png';
 const LandingNavbar = () => {
   return (
     <div>
@@ -28,7 +28,7 @@ const LandingNavbar = () => {
 <div className='bunch'>
             
             <a href="#home"> 
-              <img className='respLogo' width="100px" src='http://www.allhealthcarefl.com/wp-content/themes/allhealthcare/images/comp-logo.png' alt="logo" />  
+              <img className='respLogo' width="100px" src={complogo} alt="logo" />  
             </a>
             
 

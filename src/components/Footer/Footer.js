@@ -87,7 +87,7 @@ export default function Footer() {
               <p>
                 {/* <MDBIcon icon={LocationOnIcon} className="me-2" /> */}
                 <LocationOnIcon className="me-2"/>
-                Home Nursing Services in Dr. Hospital, Lahore.
+                Home Nursing Services, Doctor Hospital, Lahore.
               </p>
               <p>
                 {/* <MDBIcon icon="envelope" className="me-3" />
@@ -96,12 +96,12 @@ export default function Footer() {
                  kamrankamrannurse@gmail.com
               </p>
               <p>
-                <LocalPhoneIcon className="me-2"/>+92 3084409056
+                <LocalPhoneIcon className="me-2"/>+92 3034393501
                 {/* <MDBIcon icon="phone" className="me-3" />  */}
               </p>
               <p>
                 {/* <MDBIcon icon="print" className="me-3" />  */}
-                <WhatsAppIcon className="me-2"/>+92 3034393501
+                <WhatsAppIcon className="me-2"/>+92 3084409056 
               </p>
             </MDBCol>
           </MDBRow>

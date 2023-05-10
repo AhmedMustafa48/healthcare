@@ -10,12 +10,9 @@ import Footer from './components/Footer/Footer';
 import { BrowserRouter, BrowserRouter as Router, Route, Routes, Switch } from "react-router-dom";
 import MyAllServices from './components/AllServices/MyAllServices';
 import ReadMore from './components/ReadMore/ReadMore';
-import MyCards from './components/Services/card';
-import HeroBottom from './components/HeroBottom/HeroBottom';
-import BtmSlider from './components/Slider/BtmSlider';
-import WhatsApp from '@mui/icons-material/WhatsApp';
-import Whatsapp from './components/Whatsapp/Whatsapp';
 import LandingPage from './components/LandingPage/LandingPage';
+import MyCards from './components/Services/card';
+import ServiceDetail from './components/Services/ServiceDetail';
 
 function App() {
   return (
@@ -39,6 +36,12 @@ function App() {
             <Route path="/allservices" element={<MyAllServices />} /> 
 
             <Route path="/readmore" element={<ReadMore/>} />
+            <Route path="/services" element={<MyCards/>}/>
+              {/* <MyCards/>
+            </Route> */}
+
+            <Route path="/services/:ServiceId" element={<ServiceDetail/>}/>
+              
             
           </Routes>
         

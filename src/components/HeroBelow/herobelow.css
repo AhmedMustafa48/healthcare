@@ -1,0 +1,39 @@
+
+@media screen and (max-width:600px){
+    .row-disappear{
+      background-color: black;
+      display: none;
+      
+    }
+    .row-appear{
+        display: block;
+        text-align:center;
+        
+    }
+    .one-col{
+        text-align:center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+  }
+
+
+
+  .background{
+    padding: 20px;
+    margin:0;
+    /* background-color: #4c4bbd; */
+    color:white;
+    align-self: center;
+  }
+
+  .this-col >p{
+    color:rgb(213, 205, 205);
+
+  }
+  .this-col{
+  }
+.this-col>h5{
+    color:rgb(213, 205, 205);
+}

@@ -55,52 +55,21 @@ button{
     color:white;
     padding:10px;
     width: 9rem;
-    /* display:flex; */
-
-    /* font-weight: normal; */
 }
 .one-col{
-    /* border:2px solid red; */
     width: 19rem;
     height: 16rem;
 }
 .one-col >p{
     font-size: 0.8rem;
 }
-/* 
-.circle{
-    border-radius:100%;
-    background-color: #83d0c0;
-    width: 50px;
-    height: 50px;
-    color: azure;
-    font-size: 1.5rem;
-    text-align: center;
-} */
 
-/* .benRow{
-    display: flex;
-    direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-right: 70px;
-}
-.display{
-    justify-content: center;
-    display: flex;
-    
-} */
 .ben, .circle, h5{
     font-weight: 1500;
     font-family: 'Raleway', sans-serif;
   }
 
-/* .ben{
-    margin-left: 20px;
-}
-.benRow{
-    margin-bottom: 20px;
-} */
+
 .num{
     border-radius:100% ;
     background-color: #83d0c0;
@@ -146,11 +115,7 @@ button{
 #rightBen{
     margin-left: 47%;
 }
-/* .paper{
-    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.3);
-    margin: 20px;
-    padding: 0;
-} */
+
 .benDes{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;

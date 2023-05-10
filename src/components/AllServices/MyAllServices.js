@@ -24,9 +24,137 @@ import {BsBagPlusFill}  from 'react-icons/bs'
 import {TbChartDonutFilled} from 'react-icons/tb'
 
 
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
-const MyAllServices = () => {
+
+const data=[
+    {
+        icon:<BloodtypeIcon/>,
+        heading:"BLOOD SAMPLING SERVICES",
+        content:"No one enjoys a blood test, but a visit to the phlebotomist is often necessary if you want to find out what wrong...",
+    },
+    {
+        icon:<FaUserNurse/>,
+        heading:"Nursing Staff at home",
+        content:"Home Nursing Care is for patients and Elders to take care of at home, even after Covid-19, Surgical Patients,  Cancer or any other....",
+    },
+    {
+        icon:<MedicationLiquidIcon/>,
+        heading:"Physiotherapy At Home",
+        content:"people are working on the right things at the right time. Easily document requirements,specs, directly or via files...",
+    },
+    {
+        icon:<FaXRay/>,
+        heading:"X RAY'S AT HOME",
+        content:"Instead of waiting at an emergency room to be examined, many patients are now opting to have X-rays taken in their homes.",
+    },
+    {
+        icon:<BiInjection/>,
+        heading:"ANTIBIOTICS INJECTIONS",
+        content:"Antibiotics are a group of medicines that are used to treat infections caused by some germs (bacteria and certain parasites).",
+    },
+    {
+        icon:<FaFillDrip/>,
+        heading:"DRIPS/IV FLUID",
+        content:"An IV fluid drip involves a small tube called a catheter and a saline-based electrolyte solution that contains your selected...",
+    },
+    {
+        icon:<MedicalServicesIcon/>,
+        heading:"CANNULA/BRANNULA",
+        content:"A cannula is a thin tube that doctors insert into a person’s body cavity, such as their nose, or into a vein. Doctors use them to drain fluid, administer..",
+    },
+    {
+        icon:<GiBandageRoll/>,
+        heading:"DRESSING AT HOME",
+        content:"Place the gauze pads or packing tape in your wound. Carefully fill in the wound and any spaces under the skin.",
+    },
+    {
+        icon:<RiTestTubeFill/>,
+        heading:"N/G TUBE",
+        content:"A nasogastric tube (NG tube) is a special tube that carries food and medicine to the stomach through the nose.",
+    },
+    {
+        icon:<MedicationLiquidIcon/>,
+        heading:"FOLLY'S CATHERIZATION",
+        content:"A Foley catheter is a thin, sterile tube inserted into the bladder to drain urine.",
+    },
+    {
+        icon:<HealingIcon/>,
+        heading:"STITCHES REMOVE",
+        content:"Healthcare professional use stitches to heal deep cuts and wounds. Many people wonder if it is...",
+    },
+    {
+        icon:<AcUnitIcon/>,
+        heading:"DOXYGEN CYLINDER/OXYGEN CONCENTRATOR",
+        content:"These are primarily used in hospitals where...",
+    },
+    {
+        icon:<HiDocumentReport/>,
+        heading:"ECG AT HOME,",
+        content:"With our ECG monitoring device, you can record medical grade ECG anytime, anywhere..",
+    },
+    {
+        icon:<TiWaves/>,
+        heading:"ULTRASOUND AT HOME",
+        content:"Home ultrasound is the provision of therapeutic ultrasound via the use of a portable...",
+    },
+    {
+        icon:<TbChartDonutFilled/>,
+        heading:"NUTRITIONIST SERVICES",
+        content:"he Horizen Healthy Care nutrition, much like the concept of health care, stems from...",
+    },
+    {
+        icon:<FaFileMedical/>,
+        heading:"ECHOCARDIOGRAPHY AT HOME",
+        content:"Our parental echocardiogram (also called a tele parental echo) empowers you to perform an echocardiogram on your child from home",
+    },
+    {
+        icon:<BiPlusMedical/>,
+        heading:"PROVIDES MEDICAL EQUIPMENT AT HOME",
+        content:"Medical Equipment Services is an independent service company that specializes in the repair, calibration and preventative maintenance...",
+    },
+    {
+        icon:<FaPumpMedical/>,
+        heading:"ANNULA/BRANNULA<",
+        content:"A cannula is a thin tube that doctors insert into a person’s body cavity, such as their nose, or into a vein. Doctors use them to drain fluid, administer medication, or provide oxygen...",
+    },
+    {
+        icon:<FaHandHoldingMedical/>,
+        heading:"VACCINATIONS AT HOME<",
+        content:"We provide our clients with a system to better help them identify which vaccines an employee has received, when they may need boosters and what expiration dates may exist.",
+    },
+    {
+        icon:<FaClinicMedical/>,
+        heading:"HIJAMA(CUPPING THERAPY)AT HOME",
+        content:"حجامہ سنت بھی علاج بھی” It is narrated that:Cupping(Hijama)is most helpful procedure for Human being to cure...",
+    },
+    {
+        icon:<FaFileMedical/>,
+        heading:"MASSAGE THERAPY AT HOME",
+        content:"Therapeutic massage has several names such as restorative massage, medical massage, healing massage or corrective massage. This type of massage helps in...",
+    },
+    {
+        icon:<RiSurgicalMaskFill/>,
+        heading:"CLOSTOMY BAG CHANGE AT HOME",
+        content:"Stoma Bag Change Checklist Ensure you have everything to hand before changing your bag: A clean stoma bag Scissors and template (if required) Dry wipes or plain kitchen roll (not cotton wool or tissues) Warm...",
+    },
+    {
+        icon:<MdSpeakerNotes/>,
+        heading:"SPEECH THERAPY SERVICES",
+        content:"EAt-home speech therapy can be especially helpful for kids who aren’t easily frustrated and who have only mild delays or articulation errors, said Massachusetts-based pediatric speech therapist Alyssa Gusenoff. More serious problems, like speech regressions...",
+    },
+]
+
+const MyAllServices = (ServiceId) => {
+    const navigate = useNavigate();
+    // const handleSubmitReadMore = async (e) => { 
+    // navigate("/readmore");
+
+   
+// }
+const handleClickFunc=()=>{
+    navigate(`/services/${ServiceId}`)
+} 
   return (
     <div>
       <div className="container">
@@ -51,182 +179,26 @@ const MyAllServices = () => {
                         sx={{ borderRadius: "20px", width: '97%', margin: '15px', padding: '3px' }}
                     >
                         <div className="ben-div">
-                            <div className="one-row row-appear">
-                                <div className="one-col">
-                                    <MdBloodtype style={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>BLOOD SAMPLING SERVICES</h5>
-                                    <p>No one enjoys a blood test, but a visit to the <br />
-                                    phlebotomist is often necessary if you want to <br />
-                                    find out what’s wrong...</p>
-                                    {/* <p>Keep work and goals organized in one place.<br />
-                                    Be able to easily plan projects while taking <br />
-                                    previous track record into account.</p> */}
-                                    <button>Read More...</button>
-                                </div>
+                            <div className="one-row row-appear" style={{
+                                width: "100%",
+                                display: "flex",
+                                flexWrap: "wrap",
+                                justifyContent: "space-around",
+                                }}>
 
-                                <div className="one-col">
-                                    <FaUserNurse style={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>Nursing Staff at home</h5>
-                                    <p>Home Nursing Care is for patients and Elders to take care of at home, even after Covid-19, Surgical Patients,  Cancer or any other...</p>
-                                    <button>Read More...</button>
-                                </div>
-
-                                <div className="one-col">
-                                    <MedicationLiquidIcon sx={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>Physiotherapy At Home</h5>
-                                    <p>people are working on the right things at the<br /> right time. Easily document requirements, <br />specs, directly or via files.</p>
-                                    <button>Read More...</button>
-                                </div>
+                                {data.map((item, i) => (
+                                    <div className="one-col col-4">
+                                        <div style={{ fontSize: '3rem', color: '#4c4bbd' }}>{item.icon}</div>
+                                        <h5>{item.heading}</h5>
+                                        {/* <p>{item.content}</p> */}
+                                        <p>{item.content}</p>
+                                        <button onClick={handleClickFunc}>Read More...</button>
+                                    </div>
+                                )) }    
 
 
                             </div>
-                            <div className="one-row row-appear">
-                                <div className="one-col">
-                                    <FaXRay style={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>X RAY'S AT HOME</h5>
-                                    <p>Instead of waiting at an emergency room to be examined, many patients are now opting to have X-rays taken in their homes.</p>
-                                    <button>Read More...</button>
-                                </div>
-
-                                <div className="one-col">
-                                    <BiInjection style={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>ANTIBIOTICS INJECTIONS</h5>
-                                    <p>Antibiotics are a group of medicines that are used to treat infections caused by some germs (bacteria and certain parasites).</p>
-                                    <button>Read More...</button>
-                                </div>
-                                <div className="one-col">
-                                    <FaFillDrip style={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>DRIPS/IV FLUID</h5>
-                                    <p>An IV fluid drip involves a small tube called a catheter and a saline-based electrolyte solution that contains your selected...</p>
-                                    <button>Read More...</button>
-                                </div>
-                            </div>
-
-                            <div className="one-row row-appear">
-                                <div className="one-col">
-                                    <MedicalServicesIcon sx={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>PCANNULA/BRANNULA</h5>
-                                    <p>A cannula is a thin tube that doctors insert into a person’s body cavity, such as their nose, or into a vein. Doctors use them to drain fluid, administer</p>
-                                    <button>Read More...</button>
-                                </div>
-
-                                <div className="one-col">
-                                    <GiBandageRoll style={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>DRESSING AT HOME</h5>
-                                    <p>Place the gauze pads or packing tape in your wound. Carefully fill in the wound and any spaces under the skin.</p>
-                                    <button>Read More...</button>
-                                </div>
-                                <div className="one-col">
-                                    <RiTestTubeFill style={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>N/G TUBE</h5>
-                                    <p>A nasogastric tube (NG tube) is a special tube that carries food and medicine to the stomach through the nose.</p>
-                                    <button>Read More...</button>
-                                </div>
-                            </div>
-                            <div className="one-row row-appear">
-                                <div className="one-col">
-                                    <MedicationLiquidIcon sx={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>FOLLY'S CATHERIZATION</h5>
-                                    <p>A Foley catheter is a thin, sterile tube inserted into the bladder to drain urine.
-</p>
-                                    <button>Read More...</button>
-                                </div>
-
-                                <div className="one-col ">
-                                    <HealingIcon sx={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>STITCHES REMOVE</h5>
-                                    <p>Healthcare professional use stitches to heal deep cuts and wounds. Many people wonder if it is...</p>
-                                    <button>Read More...</button>
-                                </div>
-                                <div className="one-col">
-                                    <AcUnitIcon sx={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>DOXYGEN CYLINDER/OXYGEN CONCENTRATOR</h5>
-                                    <p>These are primarily used in hospitals where...</p>
-                                    <button>Read More...</button>
-                                </div>
-                            </div>
-                            <div className="one-row row-appear">
-                                <div className="one-col">
-                                    <HiDocumentReport style={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>ECG AT HOME,</h5>
-                                    <p>With our ECG monitoring device, you can record medical grade ECG anytime, anywhere….</p>
-                                    <button>Read More...</button>
-                                </div>
-
-                                <div className="one-col">
-                                    <TiWaves style={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>ULTRASOUND AT HOME</h5>
-                                    <p>Home ultrasound is the provision of therapeutic ultrasound via the use of a portable...</p>
-                                    <button>Read More...</button>
-                                </div>
-                                <div className="one-col">
-                                    <TbChartDonutFilled style={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>NUTRITIONIST SERVICES</h5>
-                                    <p>The Horizen Healthy Care nutrition, much like the concept of health care, stems from...</p>
-                                    <button>Read More...</button>
-                                </div>
-                            </div>
-
-                            <div className="one-row row-appear">
-                                <div className="one-col">
-                                    <FaFileMedicalAlt style={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>ECHOCARDIOGRAPHY AT HOME</h5>
-                                    <p>Our parental echocardiogram (also called a tele parental echo) empowers you to perform an echocardiogram on your child from home</p>
-                                    <button>Read More...</button>
-                                </div>
-
-                                <div className="one-col">
-                                    <BiPlusMedical style={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>PROVIDES MEDICAL EQUIPMENT AT HOME</h5>
-                                    <p>Medical Equipment Services is an independent service company that specializes in the repair, calibration and preventative maintenance...</p>
-                                    <button>Read More...</button>
-                                </div>
-                                <div className="one-col">
-                                    <FaPumpMedical style={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>CANNULA/BRANNULA</h5>
-                                    <p>A cannula is a thin tube that doctors insert into a person’s body cavity, such as their nose, or into a vein. Doctors use them to drain fluid, administer medication, or provide oxygen...</p>
-                                    <button>Read More...</button>
-                                </div>
-                            </div>
-
-                            <div className="one-row row-appear">
-                                <div className="one-col">
-                                    <FaHandHoldingMedical style={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>VACCINATIONS AT HOME</h5>
-                                    <p>We provide our clients with a system to better help them identify which vaccines an employee has received, when they may need boosters and what expiration dates may exist.</p>
-                                    <button>Read More...</button>
-                                </div>
-
-                                <div className="one-col">
-                                    <FaClinicMedical style={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>HIJAMA(CUPPING THERAPY)AT HOME</h5>
-                                    <p>“حجامہ سنت بھی علاج بھی” It is narrated that:Cupping(Hijama)is most helpful procedure for Human being to cure...</p>
-                                    <button>Read More...</button>
-                                </div>
-                                <div className="one-col">
-                                    <FaFileMedical style={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>MASSAGE THERAPY AT HOME</h5>
-                                    <p>Therapeutic massage has several names such as restorative massage, medical massage, healing massage or corrective massage. This type of massage helps in...</p>
-                                    <button>Read More...</button>
-                                </div>
-                            </div>
-
-                            <div className="one-row row-appear">
-                                <div className="one-col">
-                                    <RiSurgicalMaskFill style={{ fontSize: '6rem', color: '#4c4bbd' }} />
-                                    <h5>CLOSTOMY BAG CHANGE AT HOME</h5>
-                                    <p>Stoma Bag Change Checklist Ensure you have everything to hand before changing your bag: A clean stoma bag Scissors and template (if required) Dry wipes or plain kitchen roll (not cotton wool or tissues) Warm...</p>
-                                    <button>Read More...</button>
-                                </div>
-
-                                <div className="one-col">
-                                    <MdSpeakerNotes style={{ fontSize: '3rem', color: '#4c4bbd' }} />
-                                    <h5>SPEECH THERAPY SERVICES</h5>
-                                    <p>EAt-home speech therapy can be especially helpful for kids who aren’t easily frustrated and who have only mild delays or articulation errors, said Massachusetts-based pediatric speech therapist Alyssa Gusenoff. More serious problems, like speech regressions...</p>
-                                    <button>Read More...</button>
-                                </div>
-                               
-                            </div>
+                            
                         </div>
                     </Paper>
                 </div>

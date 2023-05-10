@@ -2,13 +2,17 @@ import React from 'react'
 import topimg from '../../Assets/topimg.jpeg';
 import "./readmore.css";
 
+
 const ReadMore = (props) => {
     return (
         <div className='container'>
-            <h2 className='heading'>{props.heading}</h2>
+            <h2 className='heading'>
+                {/* {props.heading} */}
+                helloworld
+                </h2>
             <div className="flex">
                 <div>
-                    {props.content}
+                    {/* {props.content} */}
                     <p className='content'>Rather than holding up at a trauma center to be analyzed, numerous patients are presently picking to have X-beams taken in their homes. Particularly helpful for the old or patients with critical sicknesses, compact X-beam machines can require just 20 minutes and may try and have the option to send data to a radiologist carefully.
 
                     Convenient X-beam machines have been accessible for quite a while. By and large, they have been utilized in clinics to perform radiography on patients who are in such basic condition that they can only with significant effort be shipped to the radiology office. These machines have likewise been utilized in the trauma center when a patient is being treated for horrendous wounds or in the working room where patients might be going through different surgeries.

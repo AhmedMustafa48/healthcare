@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroBottom from '../HeroBottom/HeroBottom'
+import HeroBelow from '../HeroBelow/Herobelow'
 import Home from '../Home/Home'
 import MyCards from '../Services/card'
 import BtmSlider from '../Slider/BtmSlider'
@@ -10,7 +10,7 @@ const LandingPage = () => {
     <div>
         <Home />
             <Whatsapp/>
-            <HeroBottom/>
+            <HeroBelow/>
             <MyCards />
             <BtmSlider/>
     </div>
