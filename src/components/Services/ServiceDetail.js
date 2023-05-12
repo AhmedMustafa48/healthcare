@@ -20,16 +20,16 @@ const ServiceDetail = () => {
   return (
     
     <>
-   <div className='container  displayChange'>
+   <div className='container'>
     <Button onClick={back} variant="text" sx={{color:"#4c4bbd", fontSize:'1rem'}}><BiArrowBack/>Back</Button>
-            <h2 className='heading'>
+            <h2 className='heading displayChange'>
                 {/* {props.heading} */}
                 {/* helloworld */}
                 {
                     `${service.headings}`
                 }
                 </h2>
-            <div className="flex">
+            <div className="flex displayChange">
                 <div>
                     {/* {props.content} */}
                     <p className='content'>
