@@ -5,6 +5,7 @@ import sample from '../../Assets/ReadMorePics/cannula.png'
 import { Box, Button } from '@mui/material'
 import '../ReadMore/readmore.css'
 import ShortFooter from '../Footer/ShortFooter'
+import {BiArrowBack} from 'react-icons/bi' 
 const ServiceDetail = () => {
     const navigate=useNavigate();
     const back =async(e)=>{navigate('/')}
@@ -20,7 +21,7 @@ const ServiceDetail = () => {
     
     <>
    <div className='container  displayChange'>
-    <Button onClick={back}>Back</Button>
+    <Button onClick={back} variant="text" sx={{color:"#4c4bbd", fontSize:'1rem'}}><BiArrowBack/>Back</Button>
             <h2 className='heading'>
                 {/* {props.heading} */}
                 {/* helloworld */}
