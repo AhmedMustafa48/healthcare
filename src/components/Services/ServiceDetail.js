@@ -1,11 +1,13 @@
 import React from 'react'
-import { useParams } from 'react-router'
+import { useNavigate, useParams } from 'react-router'
 import ServiceData from '../ReadMore/ServiceData.json'
 import sample from '../../Assets/ReadMorePics/cannula.png'
-import { Box } from '@mui/material'
+import { Box, Button } from '@mui/material'
 import '../ReadMore/readmore.css'
 import ShortFooter from '../Footer/ShortFooter'
 const ServiceDetail = () => {
+    const navigate=useNavigate();
+    const back =async(e)=>{navigate('/')}
     const {ServiceId} =useParams();
     const service =ServiceData.find((s)=>s.id===Number(ServiceId))
     if (!service){
@@ -15,8 +17,10 @@ const ServiceDetail = () => {
     }
 
   return (
+    
     <>
-   <div className='container'>
+   <div className='container  displayChange'>
+    <Button onClick={back}>Back</Button>
             <h2 className='heading'>
                 {/* {props.heading} */}
                 {/* helloworld */}
@@ -24,7 +28,7 @@ const ServiceDetail = () => {
                     `${service.headings}`
                 }
                 </h2>
-            <div className="flex displayChange">
+            <div className="flex">
                 <div>
                     {/* {props.content} */}
                     <p className='content'>
