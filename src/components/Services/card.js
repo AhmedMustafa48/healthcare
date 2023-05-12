@@ -1,5 +1,5 @@
 import React from 'react'
-// import './services.css'
+import './services.css'
 import SchemaIcon from '@mui/icons-material/Schema';
 import FlagIcon from '@mui/icons-material/Flag';
 import ManageHistoryIcon from '@mui/icons-material/ManageHistory';
@@ -70,18 +70,23 @@ import ServiceExercpt from '../ReadMore/ServiceExercpt';
 const MyCards = () => {
     // const classes = useStyles()
     const navigate=useNavigate();
-    const handleSubmit =async(e)=>{navigate('/allservices')}  
+    // const handleSubmit =async(e)=>{navigate('/allservices')}  
     const services=ServiceData.map((service)=>(
     
-    <div className="one-col col-4">
+        <div className="one-col col-4">
 
     
-    <ServiceExercpt ServiceId={service.id}
-        Titleheading={service.Titleheading}
-        Cardcontent={service.Cardcontent}
-        heading={service.heading} content={service.content}></ServiceExercpt>
-        </div>
-       ))
+        <ServiceExercpt ServiceId={service.id}
+            Titleheading={service.Titleheading}
+            Cardcontent={service.Cardcontent}
+            heading={service.heading} 
+            content={service.content}>
+
+            </ServiceExercpt>
+         
+         
+         </div>
+    ))
     
     return (
         <section className="benefitSection">

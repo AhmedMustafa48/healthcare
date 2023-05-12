@@ -9,19 +9,34 @@
     width:90%;
     font-weight: normal;
     color: grey;
+    margin-bottom: 0;
 }
 .rowImage> .thisImg{
+    margin-top: 0px;
     height: 15rem;
-    
+    /* margin-right: 45px; */
     border-radius: 20px;
     margin-top: 3rem;
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:800px) and (min-width:250px){
     .displayChange{
       /* background-color: black; */
       display: block;
       padding :0 20px 0 20px;   
+      margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     margin: 0;
       /* hello  */
+      
+    }
+    
+
+  }
+  @media screen and (max-width:400px){
+    .rowImage> .thisImg{
+     height: 8rem;
+    
       
     }
     

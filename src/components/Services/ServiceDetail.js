@@ -48,6 +48,7 @@ const ServiceDetail = () => {
                     src={service.link}
                     height="30%"
                     className='thisImg'
+                
                     >
 
                     </Box>

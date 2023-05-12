@@ -108,12 +108,11 @@ export default function Footer() {
         </MDBContainer>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)', color:'rgb(213, 205, 205)'}}>
+      {/* <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)', color:'rgb(213, 205, 205)'}}>
         © 2023 Copyright:
-        {/* <a className='text-reset fw-bold' href='https://mdbootstrap.com/'> */}
           Home Nursing Services
-        {/* </a> */}
-      </div>
+        
+      </div> */}
     </MDBFooter>
     </div>
   );

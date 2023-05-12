@@ -11,7 +11,10 @@ const HeroBelow = () => {
                 {/* <div className="benDiv"> */}
                 
                         <div className="background" style={{backgroundColor: '#4c4bbd'}}>
-                            <div className="one-row row-appear">
+                            <div className="one-row row-appear" style={{width: "100%",
+                                display: "flex",
+                                flexWrap: "wrap",
+                                justifyContent: "space-around",}}>
                                 <div className="one-col this-col para">
                                     <FaMedal style={{ fontSize: '3rem', color: 'white' }} />
                                     <h5 style={{color: 'rgb(213, 205, 205)'}}>Satisfaction Guarantee</h5>
