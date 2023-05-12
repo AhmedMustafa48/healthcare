@@ -19,10 +19,7 @@ function App() {
     // <div className="App">
     <>
       <div><Header /></div>
-      <div>
-        <LandingNavbar />
-        {/* Hello <JOE /> */}
-      </div>
+     
 
       <div
         data-bs-spy="scroll"
