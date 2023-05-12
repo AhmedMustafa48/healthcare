@@ -37,9 +37,9 @@ body {
     color:#4c4bbd;
 }
 .text>p{
-    color:#8f8eff;
+    color:#1b1b1d;
     /* color: rgb(45, 45, 45); */
-    font-weight: 1rem;
+    font-weight: normal;
     margin-right: 15px;
     /* color:wheat; */
     font-size:1rem

@@ -21,7 +21,7 @@ export default function Footer() {
                 Home nursing services
               </h6>
               <p style={{color:'rgb(213, 205, 205)', fontWeight:'normal'}}>
-              Each day thousands of individuals enter the entryways of Horizen health care & home nursing services with somebody near to them in require of therapeutic attention…
+              Each day thousands of individuals enter the entryways of Home nursing services with somebody near to them in require of therapeutic attention…
               </p>
               <hr style={{color:'rgb(213, 205, 205)'}}/> 
               <p  style={{color:'rgb(213, 205, 205)'}}>
