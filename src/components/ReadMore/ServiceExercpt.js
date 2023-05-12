@@ -4,6 +4,7 @@ import { BiInjection } from 'react-icons/bi';
 import { FaHospitalAlt, FaHospitalSymbol, FaUserNurse, FaXRay } from 'react-icons/fa';
 import { MdBloodtype } from 'react-icons/md';
 import {useNavigate} from 'react-router-dom'
+import ShortFooter from '../Footer/ShortFooter';
 // import '../Services/services.css';
 
 
@@ -114,6 +115,7 @@ const ServiceExercpt = ({ServiceId, Titleheading, Cardcontent,cardIcon }) => {
     <div className="text-center">
 
     <button onClick={handleClickFunc} >Read More...</button></div>
+    
 </div>
 
 

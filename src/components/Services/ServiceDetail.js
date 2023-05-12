@@ -4,6 +4,7 @@ import ServiceData from '../ReadMore/ServiceData.json'
 import sample from '../../Assets/ReadMorePics/cannula.png'
 import { Box } from '@mui/material'
 import '../ReadMore/readmore.css'
+import ShortFooter from '../Footer/ShortFooter'
 const ServiceDetail = () => {
     const {ServiceId} =useParams();
     const service =ServiceData.find((s)=>s.id===Number(ServiceId))
@@ -14,6 +15,7 @@ const ServiceDetail = () => {
     }
 
   return (
+    <>
    <div className='container'>
             <h2 className='heading'>
                 {/* {props.heading} */}
@@ -46,8 +48,12 @@ const ServiceDetail = () => {
                     </Box>
                     
                 </div>
+
             </div>
+            
         </div>
+        <ShortFooter/>
+        </>
   )
 }
 
