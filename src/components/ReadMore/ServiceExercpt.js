@@ -4,7 +4,7 @@ import { BiInjection } from 'react-icons/bi';
 import { FaHospitalAlt, FaHospitalSymbol, FaUserNurse, FaXRay } from 'react-icons/fa';
 import { MdBloodtype } from 'react-icons/md';
 import {useNavigate} from 'react-router-dom'
-import '../Services/services.css';
+// import '../Services/services.css';
 
 
 const navigation = [
@@ -56,6 +56,46 @@ const ServiceExercpt = ({ServiceId, Titleheading, Cardcontent,cardIcon }) => {
     const handleClickFunc =()=>{
         navigate(`/services/${ServiceId}`)
     } 
+    const styles ={
+      button:{
+      border:'none',
+      background:'transparent',
+      color:'#8f8eff',
+      fontWeight: 'bold',
+      border:'1px solid #8f8eff',
+      borderRadius:'5px',
+      marginBottom: '30px',
+      padding: '5px',
+  },
+  fontSize:{
+      marginTop: '50px',
+  },
+  colorText:{
+  
+      color:'#4c4bbd',
+  },
+  h5:{
+      color:'#8f8eff',
+  },
+  para:{
+      fontWeight: 'normal',
+      color: 'grey',
+  },
+  serviceBtnClr:{
+      borderRadius:'25px',
+      backgroundColor:'#4c4bbd',
+      color:'white',
+      padding:'10px',
+      width: '9rem',
+      
+  },
+  oneCol:{
+      width: '19rem',
+      height: '16rem',
+  },
+  para:{
+      fontSize: '0.8rem',
+  }}
   return (
 
 
@@ -69,7 +109,7 @@ const ServiceExercpt = ({ServiceId, Titleheading, Cardcontent,cardIcon }) => {
     <h5 className="colorText">{Titleheading}</h5>
     <div className="what">
     
-    <p>{Cardcontent}</p>
+    <p className={styles.para}>{Cardcontent}</p>
     </div>
     <div className="text-center">
 

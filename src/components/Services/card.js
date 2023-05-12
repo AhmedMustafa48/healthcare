@@ -1,5 +1,5 @@
 import React from 'react'
-import './services.css'
+// import './services.css'
 import SchemaIcon from '@mui/icons-material/Schema';
 import FlagIcon from '@mui/icons-material/Flag';
 import ManageHistoryIcon from '@mui/icons-material/ManageHistory';
