@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Footer/Footer'
 import HeroBelow from '../HeroBelow/Herobelow'
 import Home from '../Home/Home'
 import MyCards from '../Services/card'
@@ -13,6 +14,9 @@ const LandingPage = () => {
             <HeroBelow/>
             <MyCards />
             <BtmSlider/>
+            <footer>
+        <Footer />
+      </footer>
     </div>
   )
 }

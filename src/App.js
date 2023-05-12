@@ -46,9 +46,9 @@ function App() {
 
       </div>
       {/* <MyAllServices/> */}
-      <footer>
+      {/* <footer>
         <Footer />
-      </footer>
+      </footer> */}
         {/* <Routes>
           <Route path="/myallservices" element={<MyAllServices />} />
         </Routes> */}
