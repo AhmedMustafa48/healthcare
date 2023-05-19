@@ -3,12 +3,12 @@
     /* align-items: start; */
 }
 .heading{
-    color: #8f8eff;
+    color: #4c4bbd;
 }
 .content{
     width:90%;
     font-weight: normal;
-    color: grey;
+    color: rgb(0, 0, 0);
     margin-bottom: 0;
 }
 .rowImage> .thisImg{

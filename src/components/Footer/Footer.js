@@ -87,7 +87,7 @@ export default function Footer() {
               <p>
                 {/* <MDBIcon icon={LocationOnIcon} className="me-2" /> */}
                 <LocationOnIcon className="me-2"/>
-                Home Nursing Services, Doctor Hospital, Lahore.
+                Home Nursing Services, Doctors Hospital Block G1 Phase 1, Johar Town, Lahore, Punjab 54600.
               </p>
               <p>
                 {/* <MDBIcon icon="envelope" className="me-3" />
